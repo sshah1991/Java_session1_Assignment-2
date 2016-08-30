@@ -1,0 +1,25 @@
+public class output {
+    public static int expression(int a, int b){ 
+        int c,d,e;
+         b= a-- - --a;
+         System.out.println("value of line 1 is :" +b);
+         System.out.println( "\n");
+         c=a--;
+         System.out.println("value of line 1 is :" +c );
+         System.out.println( "\n");
+         d=a>>2;
+         System.out.println("value of line 1 is :" +d );
+         System.out.println( "\n");
+         e=a&b;
+         System.out.println("value of line 1 is :" +e );
+         System.out.println( "\n");
+      return 0;
+        }
+        
+      
+     public static void main(String []args){
+        int a,b;
+        expression(20,10);
+        
+     }
+}
